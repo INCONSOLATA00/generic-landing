@@ -9,3 +9,26 @@ flex-direction: column;
 height: 100vh;
 }
 
+.header {
+height: 150px;
+background-color:#1f2937;
+}
+
+.ul-wrapper {
+display: flex;   
+justify-content: flex-end; 
+}
+
+.header ul {
+display: flex;
+background-color: cyan;    
+gap: 6px
+}
+
+ul, li {
+list-style: none;
+}
+
+ul {
+padding: 0px;
+}
