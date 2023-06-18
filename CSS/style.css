@@ -1,12 +1,20 @@
 
 
-/* */
+/* IDEA: MAKE A DIV, JUST UNDER THE BODY ELEMENT THAT CONTAINS ALL THE CONTENT */
+
 
 
 body {
 display: flex;
 flex-direction: column;
-height: 100vh;
+height: 100vh; 
+align-items: center;
+}
+
+.sub-body {
+display: flex;
+flex-direction: column;
+width: 900px;
 }
 
 .header {
@@ -20,9 +28,12 @@ justify-content: flex-end;
 }
 
 .header ul {
-display: flex;
-background-color: cyan;    
+display: flex;    
 gap: 6px
+}
+
+.header, a {
+color: white;
 }
 
 ul, li {
@@ -31,4 +42,5 @@ list-style: none;
 
 ul {
 padding: 0px;
+margin-right: 8px;
 }
