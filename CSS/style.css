@@ -1,7 +1,6 @@
 
 
-/* IDEA: MAKE A DIV, JUST UNDER THE BODY ELEMENT THAT CONTAINS ALL THE CONTENT */
-
+/* TO ADD PADDING TO EACH INDIVIDUAL CONTENT BLOCK */
 
 
 body {
@@ -11,14 +10,27 @@ height: 100vh;
 align-items: center;
 }
 
-.sub-body {
+.sub-body-one {
 display: flex;
 flex-direction: column;
 width: 900px;
+
+height:  80px;
 }
 
-.header {
-height: 150px;
+.sub-body-two { /* OWNS DEDICATED SECTION */
+display: flex;
+flex-direction: column;
+width: 900px;
+
+height: 80px;
+background-color: rgb(114, 109, 109);
+}
+
+/* --------------------*/
+
+.header { /* despite being 80px, appears to be only as tall as the ul element* */
+/* height: 80px; - trying to understand where the height is being declared*/
 background-color:#1f2937;
 }
 
@@ -26,6 +38,8 @@ background-color:#1f2937;
 display: flex;   
 justify-content: flex-end; 
 }
+
+/* --------------------*/
 
 .header ul {
 display: flex;    
