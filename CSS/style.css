@@ -29,7 +29,7 @@ display: flex;
 flex-direction: column;
 width: 750px;
 
-height: 80px;
+height: 150px;
 background-color: #303f53;
 
 padding-left: 100%;
@@ -38,14 +38,25 @@ padding-right: 100%;
 
 .ul-wrapper {
 display: flex;   
-justify-content: flex-end; 
+justify-content: flex-start; 
+justify-content: space-between;
 }
 
 /* --------------------*/
 
-#flavor {font-size: 20px; font-weight: 900;}
+.flavor {
+font-size: 20px;
+font-weight: 900;
+color: #f9fafb;
+}
 
-#flavor-one {font-size: 20px; font-weight: 700; color: white;}
+.flavor-two {
+font-size: 20px;
+font-weight: 900;
+color: #f9fafb; 
+
+width: 130px;
+}
 
 .header ul {
 display: flex;    
@@ -62,5 +73,5 @@ list-style: none;
 
 ul {
 padding: 0px;
-margin-right: 8px;
+margin-right: 8px; /* can edit later if needed */
 }
