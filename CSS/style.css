@@ -22,8 +22,6 @@ padding-left: 100%;
 padding-right: 100%;
 }
 
-/* --------------------*/
-
 .sub-body-two {
 display: flex;
 flex-direction: row;
@@ -32,6 +30,18 @@ width: 940px;
 height: 350px;
 background-color: #1f2937;
 justify-content: space-between;
+
+padding-left: 100%;
+padding-right: 100%;
+}
+
+.sub-body-three {
+display: flex;
+flex-direction: row;
+width: 940px;
+    
+height: 270px;
+background-color: #bdbcbc;
 
 padding-left: 100%;
 padding-right: 100%;
