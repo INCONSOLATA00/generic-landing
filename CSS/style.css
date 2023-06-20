@@ -45,11 +45,45 @@ background-color: #bdbcbc;
 
 padding-left: 100%;
 padding-right: 100%;
+
+justify-content: center;
+align-items: center;
 }
 
-/* --------------------*/
+/* -------------------- "sub-container-one" is unlisted*/
 
-.sub-container-one {
+.sub-container-two {
+display: flex;
+flex-direction: column;
+background-color: #6d747d;
+justify-content: center;
+align-items: center;
+
+width: 750px;
+height: 270px;
+}
+
+.content-box {
+width: 100px;
+height: 100px;
+border-radius: 8px;
+
+border-style: solid;
+border-color: #3b82f6;
+
+margin-left:20px ;
+margin-right: 20px; 
+/* can use shorthand */
+}
+
+.content-box-wrapper {
+display: flex;
+flex-direction: row; 
+
+/* margin-bottom: 40px; */
+}
+
+.image-content {
 display: flex;
 flex-direction: row;
 justify-content: flex-end;
@@ -58,6 +92,7 @@ justify-content: flex-end;
 .image-placeholder {
 width: 500px;
 height: 225px;
+
 
 /* --------------------*/
 
