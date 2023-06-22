@@ -4,175 +4,189 @@
 
 
 body {
-display: flex;
-flex-direction: column;
-height: 100vh; 
-align-items: center;
-}
+    display: flex;
+    flex-direction: column;
+    height: 100vh; 
+    align-items: center;
+    }
+    
+    .sub-body-one {
+    display: flex;
+    flex-direction: column;
+    width: 940px;
+    
+    height:  80px;
+    background-color:#1f2937;
+    
+    padding-left: 100%;
+    padding-right: 100%;
+    }
+    
+    .sub-body-two {
+    display: flex;
+    flex-direction: row;
+    width: 940px;
+    
+    height: 350px;
+    background-color: #1f2937;
+    justify-content: space-between;
+    
+    padding-left: 100%;
+    padding-right: 100%;
+    }
+    
+    .sub-body-three {
+    display: flex;
+    flex-direction: row;
+    
+    width: 940px;
+    height: 270px;
+    
+    padding-left: 100%;
+    padding-right: 100%;
+    
+    justify-content: center;
+    align-items: center;
+    }
+    
+    /* -------------------- "sub-container-one" is unlisted*/
+    
+    .sub-container-two {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    
+    width: 750px;
+    height: 270px;
+    }
+    
+    .container-wrapper {
+    color: #1f2937;
+    }
+    
+    .content-box {
+    width: 100px;
+    height: 100px;
+    border-radius: 5px;
+    
+    border-style: solid;
+    border-color: #3b82f6;
+    border-width: 3.5px;
+    
+    margin-left:20px ;
+    margin-right: 20px;
+    text-align: center; 
+    /* can use shorthand */
+    }
+    
+    .content-box-position-w {
+    display: flex;
+    flex-direction: row; 
+    margin-bottom: 33px; 
+    }
+    
+    .cb-wrapper {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    }
 
-.sub-body-one {
-display: flex;
-flex-direction: column;
-width: 940px;
+    .cb-wrapper-one a {
+        color: green;
+    }
 
-height:  80px;
-background-color:#1f2937;
+    .image-content {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    }
+    
+    .image-placeholder {
+    width: 500px;
+    height: 225px;
+    
+    
+    /* --------------------*/
+    
+    background-color: #6d747d;
+    }
+    
+    .ul-wrapper {
+    display: flex;   
+    justify-content: flex-start; 
+    justify-content: space-between;
+    }
+    
+    .header-logo {
+    margin-top: 10px;
+    font-size: 24px;
+    font-weight: 900;
+    color: #F9FAF8;
+    }
+    
+    .hero-main {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    }
+    
+    .hero-secondary {
+    font-size: 18px;
+    color: #E5E7EB; 
+    }
+    
+    .button-one {
+    margin-top: 12px;
+    border-radius: 10px;
+    border: none;
+    
+    height: 40px;
+    width: 140px; 
+    
+    background-color: #3b82f6;  
+    color: white; 
+    }
+    
+    .container-wrapper span {
+    display: flex;
+    flex-direction: column;
 
-padding-left: 100%;
-padding-right: 100%;
-}
+    margin-bottom: 30px;
+    color: #1f2937;
+    text-align: center;
 
-.sub-body-two {
-display: flex;
-flex-direction: row;
-width: 940px;
+    font-size: 36px;
+    font-weight: bolder;
+    }
 
-height: 350px;
-background-color: #1f2937;
-justify-content: space-between;
-
-padding-left: 100%;
-padding-right: 100%;
-}
-
-.sub-body-three {
-display: flex;
-flex-direction: row;
-
-width: 940px;
-height: 270px;
-
-padding-left: 100%;
-padding-right: 100%;
-
-justify-content: center;
-align-items: center;
-}
-
-/* -------------------- "sub-container-one" is unlisted*/
-
-.sub-container-two {
-display: flex;
-flex-direction: column;
-background-color: white;
-justify-content: center;
-align-items: center;
-
-width: 750px;
-height: 270px;
-}
-
-.container-wrapper {
-color: #1f2937;
-}
-
-.content-box {
-width: 100px;
-height: 100px;
-border-radius: 8px;
-
-border-style: solid;
-border-color: #3b82f6;
-
-margin-left:20px ;
-margin-right: 20px; 
-/* can use shorthand */
-}
-
-.content-box-wrapper {
-display: flex;
-flex-direction: row; 
-margin-bottom: 33px; 
-}
-
-.image-content {
-display: flex;
-flex-direction: row;
-justify-content: flex-end;
-}
-
-.image-placeholder {
-width: 500px;
-height: 225px;
-
-
-/* --------------------*/
-
-background-color: #6d747d;
-}
-
-.ul-wrapper {
-display: flex;   
-justify-content: flex-start; 
-justify-content: space-between;
-}
-
-.header-logo {
-margin-top: 10px;
-font-size: 24px;
-font-weight: 900;
-color: #F9FAF8;
-}
-
-.hero-main {
-font-size: 48px;
-font-weight: bolder;
-color: #F9FAF8;
-}
-
-.hero-secondary {
-font-size: 18px;
-color: #E5E7EB; 
-}
-
-.button-one {
-margin-top: 12px;
-border-radius: 10px;
-border: none;
-
-height: 40px;
-width: 140px; 
-
-background-color: #3b82f6;  
-color: white; 
-}
-
-.container-wrapper + p {
-margin-bottom: 30px;
-color: #6d747d;
-}
-
-.container-wrapper, p {
-margin-bottom: 30px;
-color: #6d747d;
-}
-
-.image-placeholder, p {
-display: flex;
-
-justify-content: center;
-align-items: center;
-color: white;
-}
-
-.header ul {
-display: flex;    
-gap: 6px
-}
-
-.header, a {
-color: white;
-}
-
-ul, li {
-list-style: none;
-}
-
-ul {
-padding: 0px;
-margin-right: 8px; /* can edit later if needed */
-}
-
-button, h3 {
-margin: 0px;
-}
+    .image-placeholder, p {
+    display: flex;
+    
+    justify-content: center;
+    align-items: center;
+    color: white;
+    }
+    
+    .header ul {
+    display: flex;    
+    gap: 6px
+    }
+    
+    .header, a {
+    color: white;
+    }
+    
+    ul, li {
+    list-style: none;
+    }
+    
+    ul {
+    padding: 0px;
+    margin-right: 8px; /* can edit later if needed */
+    }
+    
+    button, h3 {
+    margin: 0px;
+    }
