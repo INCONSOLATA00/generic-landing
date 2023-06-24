@@ -1,5 +1,10 @@
 
-    /* could adjust height of image content */
+    /* could adjust height of image content
+    
+    each sub-body could techincally have an id, as they are parts of the main page that could be "jumped" to for
+    accessibility
+
+    */
 
     body {
     display: flex;
@@ -36,8 +41,6 @@
     
     .sub-body-three {
     display: flex;
-    flex-direction: row;
-    
     width: 940px;
     height: 270px;
     
@@ -50,12 +53,7 @@
     }
     
     .sub-body-four {
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
     width: 940px;
-        
-    height: 350px;
     background-color:#e5e7eb;
         
     padding-left: 100%;
@@ -66,6 +64,32 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    }
+
+    .sub-body-five {
+    background-color: white;
+    
+    height: 330px;
+    width: 940px;
+
+    padding-left: 100%;
+    padding-right: 100%;
+
+    display: flex;
+    justify-content: center; /* not technically needed, but inclueded anyways */
+    align-items: center;
+    }
+
+    .sub-container-four { /* includes "Call to action! it's time!" */
+    display: flex;   
+    flex-direction: column; 
+    height: 140px;    
+    width: 6963px;
+    border-radius: 10px;
+
+    justify-content: center;
+    align-items: center;
+    background-color: #3b82f6;
     }
 
     #testimonial {
@@ -92,7 +116,7 @@
     .content-box {
     width: 100px;
     height: 100px;
-    border-radius: 5px;
+    border-radius: 10px;
     
     border-style: solid;
     border-color: #3b82f6;
