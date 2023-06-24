@@ -65,15 +65,16 @@ body {
     border-style: solid;
     border-color: #3b82f6;
     border-width: 3.5px;
+    text-align: center; 
+    /* redacted     
     
     margin-left:20px ;
-    margin-right: 20px;
-    text-align: center; 
-    /* can use shorthand */
+    margin-right: 20px; */
     }
     
     .content-box-position-w {
     display: flex;
+    justify-content: center;
     }
     
     .cb-wrapper {
@@ -82,8 +83,8 @@ body {
     text-align: center;
     }
 
-    .cb-wrapper-one a {
-        color: green;
+    .cb-wrapper, p {
+    width: 100px
     }
     
     .image-placeholder {
