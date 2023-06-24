@@ -1,7 +1,5 @@
 
-
-/* TO ADD PADDING TO EACH INDIVIDUAL CONTENT BLOCK */
-
+/* could adjust height of image content */
 
 body {
     display: flex;
@@ -24,7 +22,6 @@ body {
     
     .sub-body-two {
     display: flex;
-    flex-direction: row;
     width: 940px;
     
     height: 350px;
@@ -53,17 +50,11 @@ body {
     
     .sub-container-two {
     display: flex;
-    flex-direction: column;
-    background-color: white;
     justify-content: center;
     align-items: center;
     
     width: 750px;
     height: 270px;
-    }
-    
-    .container-wrapper {
-    color: #1f2937;
     }
     
     .content-box {
@@ -83,8 +74,6 @@ body {
     
     .content-box-position-w {
     display: flex;
-    flex-direction: row; 
-    margin-bottom: 33px; 
     }
     
     .cb-wrapper {
@@ -95,12 +84,6 @@ body {
 
     .cb-wrapper-one a {
         color: green;
-    }
-
-    .image-content {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
     }
     
     .image-placeholder {
