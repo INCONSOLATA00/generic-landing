@@ -69,8 +69,8 @@
     .sub-body-five {
     background-color: white;
     
-    margin-top: 50px;
-    padding-bottom: 50px;
+    margin-top: 67px;
+    padding-bottom: 67px;
     width: 940px;
 
     padding-left: 100%;
@@ -85,16 +85,34 @@
     font-weight: bolder;
     }
 
-    .CTA-wrapper {
+    .CTA-wrapper-one {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
     margin-left: 80px;
+    }
+
+    .button-two {
+    
+    border-radius: 10px;
+    border-width: 2.2px;
+        
+    height: 40px;
+    width: 140px; 
+    margin-left: 200px;
+    
+    border-color: white;
+    background-color: #3b82f6;  
+    color: white; 
     }
 
     .sub-container-four { /* includes "Call to action! it's time!" */
     display: flex;   
     flex-direction: column; 
-    height: 80px;    
+    height: 115px;    
     width: 940px;
-    border-radius: 10px;
+    border-radius: 6px;
 
     justify-content: center;
     align-items: start;
