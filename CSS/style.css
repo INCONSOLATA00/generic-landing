@@ -66,7 +66,7 @@
     align-items: center;
     }
 
-    .sub-body-five {
+    .sub-body-five { /* may be able to change height after adding footer */
     background-color: white;
     
     margin-top: 67px;
@@ -78,6 +78,17 @@
 
     display: flex;
     justify-content: center; /* not technically needed, but inclueded anyways */
+    align-items: center;
+    }
+
+    .sub-body-six {
+    background-color: #1f2937;
+    height: 67px; /* why won't this work? */
+
+    padding-left: 100%;
+    padding-right: 100%;
+
+    justify-content: center;
     align-items: center;
     }
 
