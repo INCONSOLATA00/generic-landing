@@ -9,7 +9,7 @@
     body {
     display: flex;
     flex-direction: column;
-    height: 100vh; 
+    height: 100vh;
     align-items: center;
     margin: -0px;
     }
@@ -69,7 +69,8 @@
     .sub-body-five {
     background-color: white;
     
-    height: 300px;
+    margin-top: 50px;
+    padding-bottom: 50px;
     width: 940px;
 
     padding-left: 100%;
@@ -80,17 +81,27 @@
     align-items: center;
     }
 
+    .CTA-one {
+    font-weight: bolder;
+    }
+
+    .CTA-wrapper {
+    margin-left: 80px;
+    }
+
     .sub-container-four { /* includes "Call to action! it's time!" */
     display: flex;   
     flex-direction: column; 
-    height: 140px;    
-    width: 6963px;
+    height: 80px;    
+    width: 940px;
     border-radius: 10px;
 
     justify-content: center;
-    align-items: center;
+    align-items: start;
     background-color: #3b82f6;
     color: white;
+
+    margin-left: 40px;
     }
 
     #testimonial {
